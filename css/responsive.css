@@ -1,8 +1,12 @@
 @media (min-width: 280px) and (max-width: 575.98px) {
-    *{
+    * {
         z-index: 0;
+        font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
     body {
+        background-color: black;
+    }
+    option {
         background-color: #292b2c;
     }
     .container {
@@ -19,16 +23,17 @@
         justify-content: flex-end;
         align-items: center;
         align-content: center;
+        text-align: center;
     }
     .svg-icon-netflix-logo {
-        width: 100px;
+        width: 92px;
         height: 50px;
-        margin-right: 2em;
+        margin-right: 2.9em;
     }
     .dropdown {
         margin-left: 0;
         font-size: 8px;
-        padding: 3px 3px 3px;
+        padding: 4px 4px 4px;
         margin-right: 2em;
     }
     .button-red-enter {
@@ -59,7 +64,6 @@
         width: 100%;
     }
     #go-btn {
-        
         font-size: 1rem;
         min-height: 40px;
         align-items: center;
@@ -70,23 +74,67 @@
     }
     .fa-chevron-right {
         font-size: 16px;
-        margin-top: 1.6em;
+        margin-top: 1.7em;
         margin-left: 0.1em;
         font-weight: 100;
     }
     .img-background {
         width: 100%;
-        
         object-fit: cover;
     }
     .img-wrapper {
         z-index: -1;
         display: flex;
     }
+    /* 2° container */
+    .container-card {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        padding-bottom: 7em;
+        border-bottom: 6px solid #222;
+    }
+}
+
+.card2-animation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.card2-animation h1 {
+    font-size: 1.625rem;
+    color: var(--color-text);
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 600;
+    margin-bottom: 0.7em;
+}
+
+.card2-animation h2 {
+    font-size: 1.125rem;
+    color: var(--color-text);
+    width: 85%;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 1.27;
+}
+
+.our-story-card-img {
+    width: 100%;
+}
+
+.our-story-card-video {
+    position: absolute;
+    width: 73%;
+    margin-top: -13.7em;
+    margin-left: -8.5em;
+    z-index: -1;
 }
 
 @media (min-width: 575.98px) and (max-width: 767.98px) {
-    *{
+    * {
         z-index: 0;
     }
     body {
@@ -163,7 +211,6 @@
     }
     .img-background {
         width: 100%;
-        
         object-fit: cover;
     }
     .img-wrapper {

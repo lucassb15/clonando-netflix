@@ -63,14 +63,14 @@ user agent stylesheet svg:not(:root) {
 .dropdown {
     border: 0.1px solid white;
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 2px;
     color: var(--color-text);
     margin-left: 65%;
 }
 
 select {
     text-transform: none;
-    background-color: #292b2c;
+    background-color: black;
     color: var(--color-text);
     border: none;
     text-align: center;
@@ -88,7 +88,7 @@ option {
     white-space: nowrap;
     min-height: 1.2em;
     padding: 0px 2px 1px;
-    background-color: #8f96a3;
+    background-color: #292b2c;
     text-transform: none;
     font: inherit;
     -webkit-rtl-ordering: logical;
