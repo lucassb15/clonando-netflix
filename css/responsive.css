@@ -1,0 +1,179 @@
+@media (min-width: 280px) and (max-width: 575.98px) {
+    *{
+        z-index: 0;
+    }
+    body {
+        background-color: #292b2c;
+    }
+    .container {
+        border-bottom: 6px solid #222;
+        height: 692px;
+    }
+    .nav-header {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1em;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+    }
+    .svg-icon-netflix-logo {
+        width: 100px;
+        height: 50px;
+        margin-right: 2em;
+    }
+    .dropdown {
+        margin-left: 0;
+        font-size: 8px;
+        padding: 3px 3px 3px;
+        margin-right: 2em;
+    }
+    .button-red-enter {
+        font-size: 15px;
+        padding: 6px 6px 6px;
+    }
+    .card-text-home-form {
+        margin-top: 4.65em;
+        width: 90%;
+    }
+    .card-text-home-form h1 {
+        font-size: 1.625rem;
+    }
+    .card-text-home-form h2 {
+        font-size: 1.125rem;
+    }
+    .card-text-home-form h3 {
+        font-size: 19px;
+    }
+    .tests {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+    #E-mail {
+        width: 100%;
+    }
+    #go-btn {
+        
+        font-size: 1rem;
+        min-height: 40px;
+        align-items: center;
+        line-height: initial;
+        margin-left: 7.0em;
+        width: 34%;
+        margin-top: 1.6em;
+    }
+    .fa-chevron-right {
+        font-size: 16px;
+        margin-top: 1.6em;
+        margin-left: 0.1em;
+        font-weight: 100;
+    }
+    .img-background {
+        width: 100%;
+        
+        object-fit: cover;
+    }
+    .img-wrapper {
+        z-index: -1;
+        display: flex;
+    }
+}
+
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    *{
+        z-index: 0;
+    }
+    body {
+        background-color: #292b2c;
+    }
+    .container {
+        border-bottom: 6px solid #222;
+        height: 692px;
+    }
+    .nav-header {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1em;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+    }
+    .svg-icon-netflix-logo {
+        width: 100px;
+        height: 50px;
+        margin-right: 14em;
+        margin-left: 0em;
+    }
+    .dropdown {
+        margin-left: 0;
+        font-size: 10px;
+        padding: 8px 8px 8px;
+        margin-right: 3em;
+    }
+    .button-red-enter {
+        font-size: 18px;
+        padding: 9px 9px 9px;
+    }
+    .card-text-home-form {
+        margin-top: 4.65em;
+        width: 80%;
+    }
+    .card-text-home-form h1 {
+        font-size: 2.9rem;
+    }
+    .card-text-home-form h2 {
+        font-size: 1.6rem;
+    }
+    .card-text-home-form h3 {
+        font-size: 18px;
+    }
+    .tests {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+    #E-mail {
+        width: 100%;
+    }
+    #go-btn {
+        font-size: 1rem;
+        min-height: 40px;
+        align-items: center;
+        line-height: initial;
+        margin-left: 11em;
+        width: 25%;
+        margin-top: 1.6em;
+    }
+    .fa-chevron-right {
+        font-size: 16px;
+        margin-top: 1.6em;
+        margin-left: 0.1em;
+        font-weight: 100;
+    }
+    .img-background {
+        width: 100%;
+        
+        object-fit: cover;
+    }
+    .img-wrapper {
+        z-index: -1;
+        display: flex;
+    }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    body {
+        background-color: red;
+    }
+}
