@@ -120,6 +120,7 @@
         width: 100%;
     }
     .our-story-card-video {
+        
         position: absolute;
         width: 73%;
         margin-top: -13.7em;
@@ -216,6 +217,7 @@
         margin-bottom: 1em;
     }
     .our-story-card-video2{
+        
         display: flex;
         align-items: center;
         justify-content: center;
