@@ -67,6 +67,12 @@ user agent stylesheet svg:not(:root) {
     color: var(--color-text);
     margin-left: 65%;
 }
+.dropdown2 {
+    border: 0.1px solid #757575;
+    border-radius: 2px;
+    color: #757575;
+    margin-left: 65%;
+}
 
 select {
     text-transform: none;
