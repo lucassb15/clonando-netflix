@@ -425,3 +425,36 @@ option {
     margin-left: 7em;
     z-index: -1;
 }
+
+/* 5° container */ 
+.container6{
+    display: flex;
+    border-bottom: 8px solid #222;
+    padding-bottom: 3em;
+    color: var(--color-text);
+}
+.card5-animation{
+    width: 80%;
+    margin-left: 5em;
+    margin-top: 5em;
+   
+}
+.container-card5{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-card5 h1{
+    font-size: 3.6em;
+    margin-bottom: 0.5em;
+}
+.container-card5 h2{
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+  
+}

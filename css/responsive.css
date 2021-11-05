@@ -243,13 +243,18 @@
 
     /* 5e container */
     .container5 {
+        display: flex;
+        flex-direction: column-reverse;
         border-bottom: 6px solid #222;
         height: auto;
         padding-bottom: 2em;
+        
     }
     .container-card5{
+        width: auto;
         display: flex;
         flex-direction: column;
+        
         color: var(--color-text);
         margin-top: 3em;
         text-align: center;
@@ -270,6 +275,11 @@
         font-weight: 400;
         line-height: 1.27;
         margin-bottom: 1em;
+    }
+    .card5-animation{
+        width: auto;
+        margin-left: 0;
+        margin-top: 0;
     }
     /* 6° container FOOTER */
     
@@ -340,6 +350,9 @@
     }
     .card4-animation{
       width: auto;
+    }
+    .card5-animation{
+        width: auto;
     }
     .text-group3 {
         font-size: 1.625rem ; 
